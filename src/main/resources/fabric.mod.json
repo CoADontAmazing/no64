@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "no64",
+	"version": "v1",
+	"name": "No64",
+	"description": "Disguises a 64-bit OS as a 32-bit one.",
+	"authors": [
+		"CoAmazing"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/no64",
+		"sources": "https://github.com/CoADontAmazing/no64",
+		"issues": "https://github.com/CoADontAmazing/no64/issues"
+	},
+	"license": "ARR",
+	"icon": "no64-icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [ "net.coamazing.no64.No64" ]
+	},
+	"mixins": [ "no64.mixins.json" ],
+	"breaks" : {
+		"no32" : "v1"
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.14.4 <1.21.0"
+	}
+}
+
