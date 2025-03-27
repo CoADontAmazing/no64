@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "no64",
-	"version": "v1",
+	"version": "1",
 	"name": "No64",
 	"description": "Disguises a 64-bit OS as a 32-bit one.",
 	"authors": [
@@ -13,17 +13,17 @@
 		"issues": "https://github.com/CoADontAmazing/no64/issues"
 	},
 	"license": "ARR",
-	"icon": "no64-icon.png",
+	"icon": "icon.png",
 	"environment": "client",
 	"entrypoints": {
-		"client": [ "net.coamazing.no64.No64" ]
+		"client": [ "dev.coa.no64.No64" ]
 	},
 	"mixins": [ "no64.mixins.json" ],
 	"breaks" : {
-		"no32" : "v1"
+		"no32" : "1"
 	},
 	"depends": {
-		"fabricloader": ">=0.14.21",
+		"fabricloader": "*",
 		"minecraft": ">=1.14.4 <1.21.0"
 	}
 }

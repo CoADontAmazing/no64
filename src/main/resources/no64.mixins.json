@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "net.coamazing.no64.mixin",
+  "package": "dev.coa.no64.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": ["MinecraftClientMixin"],
   "client": ["MinecraftClientMixin"],
