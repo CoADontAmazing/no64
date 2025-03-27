@@ -18,4 +18,4 @@ Opposite mod [No32](https://modrinth.com/mod/no32)
 
 ____
 
-© ARR 2024 CoAmazing
+© ARR 2025 CoAmazing

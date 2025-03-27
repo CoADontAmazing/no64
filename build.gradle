@@ -3,7 +3,7 @@ plugins {
 	id 'maven-publish'
 }
 
-version = "v1"
+version = "1"
 group = project.maven_group
 
 repositories {
